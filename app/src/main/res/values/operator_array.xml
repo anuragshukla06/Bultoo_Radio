@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="operator_array">
+        <item> - </item>
+        <item>AIRCEL</item>
+        <item>AIRTEL</item>
+        <item>BSNL</item>
+        <item>IDEA</item>
+        <item>JIO</item>
+        <item>MTNL</item>
+        <item>MTS</item>
+        <item>TATA DOCOMO CDMA</item>
+        <item>TATA DOCOMO GSM</item>
+        <item>RELIANCE CDMA</item>
+        <item>RELIANCE GSM</item>
+        <item>UNINOR</item>
+        <item>VIDEOCON</item>
+    </string-array>
+</resources>
