@@ -74,6 +74,12 @@ public class RecordingScreenActivity extends AppCompatActivity{
         } catch(NullPointerException e){
             e.printStackTrace();
         }
+        recordButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                toggleRecording(view);
+            }
+        });
 
     }
 
@@ -138,9 +144,6 @@ public class RecordingScreenActivity extends AppCompatActivity{
                 });
 
             } catch (IOException e) {//audioplayer exceptions
-                e.printStackTrace();
-            }
-              catch(Exception e){//audioplayer exceptions
                 e.printStackTrace();
             }
         }
